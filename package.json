@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:k0kishima/openid_connect_sample.git",
   "author": "Johndoe <56298669+togane@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
