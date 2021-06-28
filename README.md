@@ -16,8 +16,8 @@ OpenID Connect のベースである OAuth2.0 をまず理解してから、Open
 
 * [開発環境の構築](../../tree/build-development-environment#readme)
 
-### 認可サーバーの実装
+### クライアントと認可サーバーの疎通
 
-* クライアントを登録できるようにする
+* [認可サーバーにクライアントを登録する](../../tree/add-a-client#readme)
 * TBD
 * TBD
