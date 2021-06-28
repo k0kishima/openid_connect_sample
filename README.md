@@ -19,6 +19,13 @@
 * クライアントが利用する scope や callback_uri が設定されていること
   * ※ 一意なclient_idや乱雑なclient_secretを発行するのは認可サーバーの責務で、scope や redirect_uri を指定するのはクライアントの責務だが後者も便宜上ハードコーディングする
 
+## 実装結果
+
+以下の通り `http://localhost:3002/clients` へアクセスするとクライアントのデータが取得できる
+<img width="1440" alt="スクリーンショット 2021-06-28 18 52 20" src="https://user-images.githubusercontent.com/56298669/123617695-7b1ef680-d842-11eb-99bd-a1e2fce11cbf.png">
+
+※　演習の便宜上こうしているだけで識別子やシークレットを本来絶対に公開してはいけない
+
 ## MEMO
 
 * 一般的には認可サーバーへのクライアントの登録はクライアントの開発者が行う
