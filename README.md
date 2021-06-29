@@ -19,5 +19,5 @@ OpenID Connect のベースである OAuth2.0 をまず理解してから、Open
 ### クライアントと認可サーバーの疎通
 
 * [認可サーバーにクライアントを登録する](../../tree/add-a-client#readme)
-* TBD
-* TBD
+* [クライアントを利用しているリソースオーナーを認可エンドポイントへリダイレクトする](../../tree/redirect-a-client-to-an-authorization-endpoint#readme)
+
